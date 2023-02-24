@@ -36,7 +36,7 @@ const VisualFormItem: React.FC<IVisualFormItemProps> = (props) => {
                   {...field}
                   label={'key'}
                   name={[field.name, 'key']}
-                  fieldKey={[field.fieldKey, 'key']}
+                  // fieldKey={[field.fieldKey, 'key']}
                 >
                   <Input />
                 </Form.Item>
@@ -44,7 +44,7 @@ const VisualFormItem: React.FC<IVisualFormItemProps> = (props) => {
                   {...field}
                   label={'value'}
                   name={[field.name, 'value']}
-                  fieldKey={[field.fieldKey, 'value']}
+                  // fieldKey={[field.fieldKey, 'value']}
                 >
                   <Input />
                 </Form.Item>

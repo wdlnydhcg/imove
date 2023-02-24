@@ -1,3 +1,10 @@
+/*
+ * @Author: MrAlenZhong
+ * @Date: 2023-02-23 14:15:02
+ * @LastEditors: MrAlenZhong
+ * @LastEditTime: 2023-02-24 16:21:36
+ * @Description: 
+ */
 import React, { useState, useCallback } from 'react';
 
 import styles from './index.module.less';
@@ -56,8 +63,8 @@ const Header: React.FC<IProps> = (props: IProps) => {
 
   return (
     <div className={styles.container}>
-      <a href="https://github.com/imgcook/imove">
-        <span className={styles.titleText}>iMove</span>
+      <a>
+        <span className={styles.titleText}>DG-FLOW</span>
       </a>
       <div className={styles.widgets}>
         <Guide />

@@ -1,6 +1,7 @@
 {
   "name": "root",
   "private": true,
+  "type":"module",
   "scripts": {
     "test": "jest --coverage",
     "e2e": "cypress open",
@@ -13,7 +14,7 @@
   "jest": {
     "projects": [
       "config/cli.jest.config.js",
-      "config/core.jest.config.js",
+      "config/core.jest.config.js·",
       "config/editor.jest.config.js",
       "config/plugin.jest.config.js"
     ]
@@ -54,5 +55,8 @@
   },
   "lint-staged": {
     "packages/**/*.{ts,tsx,js,jsx}": "eslint --cache --fix"
+  },
+  "dependencies": {
+    "lodash.get": "4.4.2"
   }
 }
